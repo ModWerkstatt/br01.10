@@ -18,7 +18,7 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br01_10/rumpf_drg.mtl", },
+						        materials = { "vehicle/train/br01_10/rumpf_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/rumpf_01_geschlossen_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -469,7 +469,7 @@ return {
                     {
 			            children = {
 			                {
-				                materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+				                materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/tender_stromlinie_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
