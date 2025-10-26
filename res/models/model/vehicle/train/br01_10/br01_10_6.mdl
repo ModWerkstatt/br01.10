@@ -85,13 +85,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/schild_103_lod0.msh",
+						        mesh = "vehicle/train/br01_10/schild_1071_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/schild_103v_lod0.msh",
+						        mesh = "vehicle/train/br01_10/schild_1071v_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -531,7 +531,7 @@ return {
 							},
 					        {
 						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/schild_103t_lod0.msh",
+						        mesh = "vehicle/train/br01_10/tender_oel/schild_1071t_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
