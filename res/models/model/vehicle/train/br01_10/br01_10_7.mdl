@@ -494,13 +494,13 @@ return {
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
-				                materials = { "vehicle/train/br01_10/licht.mtl", },
+				                materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_oel/tender_lichtrot_oel_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
-				                materials = { "vehicle/train/br01_10/licht.mtl", },
+				                materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_oel/tender_lichthell_oel_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

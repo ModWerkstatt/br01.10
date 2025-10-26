@@ -8,17 +8,17 @@ return {
 		dirt_rust = {
 			dirtColor = { 25/255, 20/255, 19/255, },
 			dirtOpacity = 10/100,
-			dirtScale = 10/12.5,
+			dirtScale = 100/100,
 			rustColor = { 62/255, 44/255, 36/255, },
 			rustOpacity = 50/100,
-			rustScale = 10/34.77,
+			rustScale = 100/100,
 		},
 		map_albedo = {
 			fileName = "models/vehicle/train/br01_10/rumpf_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/br01_10/rumpf_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/br01_10/rumpf2_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_dirt = {
