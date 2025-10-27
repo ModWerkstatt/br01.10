@@ -563,15 +563,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1949,
-			yearTo = 1951,
+			yearFrom = 1947,
+			yearTo = 1950,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
 			name = _("br01_10_4_name"),
-			description = _("br01_10_desc"),
+			description = _("br01_10_db_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -639,14 +639,14 @@ return {
 			},
 			engines = {
 				{
-					power = 1648,
-					tractiveEffort = 176,
+					power = 1559,
+					tractiveEffort = 156,
 					type = "STEAM",
 				},
 			},
 			soundSet = { name = "br01", },
-			topSpeed = 33.333333,
-			weight = 111,
+			topSpeed = 41.66666667,
+			weight = 196.7,
 		},
 		seatProvider = {
 			drivingLicense = "RAIL",

@@ -670,7 +670,7 @@ return {
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0502, 0, 0, 1, },
 							},
 							---------------------------------------Antrieb mitte ---------------------------------------------
-							
+
 							---------------------------------------Antrieb rechts---------------------------------------------
 					        {
 						       animations = {
@@ -856,7 +856,7 @@ return {
 		},
 		description = {
 			name = _("br01_10_6_name"),
-			description = _("br01_10_desc"),
+			description = _("br01_10_db2_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -924,14 +924,14 @@ return {
 			},
 			engines = {
 				{
-					power = 1648,
-					tractiveEffort = 176,
+					power = 1817,
+					tractiveEffort = 156,
 					type = "STEAM",
 				},
 			},
 			soundSet = { name = "br01", },
-			topSpeed = 33.333333,
-			weight = 111,
+			topSpeed = 41.66666667,
+			weight = 196.5,
 		},
 		seatProvider = {
 			drivingLicense = "RAIL",

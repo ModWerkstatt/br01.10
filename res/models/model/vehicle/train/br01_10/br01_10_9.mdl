@@ -612,7 +612,7 @@ return {
 		},
 		description = {
 			name = _("br01_10_9_name"),
-			description = _("br01_10_desc"),
+			description = _("br01_10_db2_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -680,14 +680,14 @@ return {
 			},
 			engines = {
 				{
-					power = 1648,
-					tractiveEffort = 176,
+					power = 1728,
+					tractiveEffort = 156,
 					type = "STEAM",
 				},
 			},
 			soundSet = { name = "br01", },
-			topSpeed = 33.333333,
-			weight = 111,
+			topSpeed = 41.66666667,
+			weight = 192,
 		},
 		seatProvider = {
 			drivingLicense = "RAIL",

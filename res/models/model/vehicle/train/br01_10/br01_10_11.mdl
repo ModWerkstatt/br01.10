@@ -93,13 +93,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/schild_1070_lod0.msh",
+						        mesh = "vehicle/train/br01_10/schild_097_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/schild_1070v_lod0.msh",
+						        mesh = "vehicle/train/br01_10/schild_097v_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -560,7 +560,7 @@ return {
 							},
 			                {
 				                materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/schild_1070t_lod0.msh",
+						        mesh = "vehicle/train/br01_10/schild_097t_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
@@ -604,15 +604,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1953,
-			yearTo = 1968,
+			yearFrom = 1975,
+			-- yearTo = 1946,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("br01_10_8_name"),
-			description = _("br01_10_db2_desc"),
+			name = _("br01_10_10_name"),
+			description = _("br01_10_1066_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -680,14 +680,14 @@ return {
 			},
 			engines = {
 				{
-					power = 1728,
+					power = 1817,
 					tractiveEffort = 156,
 					type = "STEAM",
 				},
 			},
 			soundSet = { name = "br01", },
 			topSpeed = 41.66666667,
-			weight = 192,
+			weight = 196.5,
 		},
 		seatProvider = {
 			drivingLicense = "RAIL",
