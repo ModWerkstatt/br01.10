@@ -2,28 +2,52 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "BR 01.10",
-		["mod_desc"] = "BR 01.10",
+		["mod_name"] = "Class 01.10",
+		["mod_desc"] = "The German Reichsbahn required powerful steam locomotives with a maximum speed of 150 km/h. Based on experience with the BR 01, a three-cylinder engine was chosen. These were equipped with streamlined fairings, which were removed after the war. The boilers proved to be unsustainable, so new high-performance boilers were installed from 1953 onwards and, from 1956, some locomotives were fitted with oil-fired main boilers. The series designation 011 for coal and 012 for oil was assigned as EDP numbers in 1068, and in the same year the first locomotives began to be taken out of service, until the last BR 01.10 was decommissioned in 1975.",
 
-		["br01_10_name"] = "BR 01.10",
-		["br01_10_desc"] = "BR 01.10",
+		["br01_10_menu"] = "Class 01.10",
+
+		["br01_10_1_name"] = "Class 01.10 DRG streamline (1939)",
+		["br01_10_2_name"] = "Class 01.10 DRG streamline (1939)",
+		["br01_10_3_name"] = "Class 01.10 DRG streamline (1939)",
+		["br01_10_4_name"] = "Class 01.10 DB (1947)",
+		["br01_10_5_name"] = "Class 01.10 DB old boiler (1950)",
+		["br01_10_6_name"] = "Class 01.10 DB oil (1956)",
+		["br01_10_7_name"] = "Class 012 DB oil (1968)",
+		["br01_10_8_name"] = "Class 01.10 DB coal (1953)",
+		["br01_10_9_name"] = "Class 011 DB coal (1968)",
+		["br01_10_10_name"] = "Class 01.10 1102 museum loco streamline (1996)",
+		["br01_10_11_name"] = "Class 01.10 1066 museum loco (1975)",
+		["br01_10_drg_desc"] = "The Deutsche Reichsbahn required powerful steam locomotives with a maximum speed of 150 km/h. Based on experience with the BR 01, a three-cylinder engine was chosen. These were equipped with streamlined fairings, which also produced the desired effect. Due to the war, only a fraction of the planned and ordered locomotives were delivered.",
+        ["br01_10_db_desc"] = "From 1945 onwards, all locomotives in this series were taken out of service, but after the war some of them were put back into service due to a shortage of locomotives. Most of the locomotives were in a desolate condition, with most of the streamlined fairings missing or having been removed. From 1949 onwards, it was decided to refurbish all locomotives, remove the fairings completely and install Witte-type wind deflectors.",
+        ["br01_10_db2_desc"] = "In 1953, it was decided to equip all BR 01.10 locomotives with new high-performance boilers. From 1956 onwards, a total of 34 locomotives were converted to oil-fired main combustion. These were more economical than the coal-fired steam locomotives. With the introduction of computerised numbers, the coal-fired locomotives were given the class designation 011, while the oil-fired locomotives were designated 012. However, the first locomotives were taken out of service in 1968, and by 1975 all engines had been decommissioned.",
+		["br01_10_1102_desc"] = "The BR 01 1102 is privately owned and was refitted with streamlined cladding in 1995 at the Meiningen steam locomotive works based on the original plans. Between 1996 and 2004, it was used for museum trains, but since an accident in 2004, it has been taken out of service and is awaiting refurbishment. The aim is to make it operational again.",
+        ["br01_10_1066_desc"] = "Since 1975, 01 1066 has belonged to the Ulm Railway Enthusiasts and has been in museum service ever since, with occasional short or long-term breaks for storage and repairs.",
 
 	},
 	de = {
 
 		["mod_name"] = "BR 01.10",
-		["mod_desc"] = "BR 01.10",
+		["mod_desc"] = "Die Deutsche Reichsbahn benötigte leistungsstarke Dampflokomotiven mit einer Höchstgeschwindigkeit von 150 km/h, nach Erfahrung mit der BR 01 entschied man sich für ein Dreizylindertriebwerk. Diese waren mit einer Stromlinienverkleidung ausgestattet, die nach dem Krieg abgebaut wurde. Die Kessel erwiesen sich als nicht haltbar, so dass man ab 1953 neue Hochleistungskessel verbaute und ab 1956 teilweise Ölhauptfeuerung. Als EDV-Nummern wurde die Baureihenbezeichnung 011 für Kohle sowie 012 für Öl im Jahr 1068 vergeben, im selben Jahr begann auch schon die Ausmusterung der ersten Lokomotiven, bis 1975 die letzte BR 01.10 abgestellt wurde.",
 
+		["br01_10_menu"] = "BR 01.10",
 
-		["br01_10_menu"] = "DB BR 01.10",
-
-		--- BR 01 120km/h, T32 Tender---
-		["br01_10_t32_db_name"] = "BR 01.10 DB (1947)",
-		["br01_10_t32_db_desc"] = "xxxxx",
-
-
-		["br01_10_name"] = "BR 01.10",
-		["br01_10_desc"] = "BR 01.10",
+		["br01_10_1_name"] = "BR 01.10 DRG Stromlinie (1939)",
+		["br01_10_2_name"] = "BR 01.10 DRG Stromlinie (1939)",
+		["br01_10_3_name"] = "BR 01.10 DRG Stromlinie (1939)",
+		["br01_10_4_name"] = "BR 01.10 DB (1947)",
+		["br01_10_5_name"] = "BR 01.10 DB Altbaukessel (1950)",
+		["br01_10_6_name"] = "BR 01.10 DB Öl (1956)",
+		["br01_10_7_name"] = "BR 012 DB Öl (1968)",
+		["br01_10_8_name"] = "BR 01.10 DB Kohle (1953)",
+		["br01_10_9_name"] = "BR 011 DB Kohle (1968)",
+		["br01_10_10_name"] = "BR 01.10 1102 Museumslok Stromlinie (1996)",
+		["br01_10_11_name"] = "BR 01.10 1066 Museumslok (1975)",
+		["br01_10_drg_desc"] = "Die Deutsche Reichsbahn benötigte leistungsstarke Dampflokomotiven mit einer Höchstgeschwindigkeit von 150 km/h, nach Erfahrung mit der BR 01 entschied man sich für ein Dreizylindertriebwerk. Diese wurden mit einer Stromlinienverkleidung ausgestattet, die auch den gewünschten Effekt brachte. Durch den Krieg wurde nur ein Bruchteil der geplanten und bestellten Loks ausgeliefert.",
+        ["br01_10_db_desc"] = "Ab 1945 wurden alle Maschinen der Baureihe abgestellt, nach dem Krieg wurden sie allerdings aufgrund von Lokomotivmangel teilweise wieder genutzt. Die meisten Maschinen waren in desolatem Zustand, so fehlten die Stromlinienverkleidungen großteils oder wurden abgebaut. Ab 1949 wurde dann entschieden, alle Loks aufzuarbeiten und die Verkleidungen komplett zu entfernen und Windleitbleche der Bauart Witte zu montieren.",
+        ["br01_10_db2_desc"] = "1953 entschloß man sich, alle Maschinen der BR 01.10 mit neuen Hochleistungskesseln auszurüsten. Ab 1956 wurden insgesamt 34 Loks auf Ölhauptfeuerung umgebaut. Diese waren wirtschaflicher als die kohlegefeuerten Dampfloks. Mit Einführung der EDV-Nummern erhielten die kohlegefeuerten Loks die Baureihenbezeichnung 011, die ölgefeuerten Loks wurden als 012 geführt. Von 1968 an wurden die ersten Loks aber auch schon ausgemustert und bis 1975 alle Maschinen abgestellt.",
+		["br01_10_1102_desc"] = "Die BR 01 1102 ist in Privatbesitz und wurde 1995 im Dampflokwerk Meiningen nach Originalplänen wieder mit einer Stromlinienverkleidung ausgestattet. Zwischen 1996 und 2004 war sie vor Museumszügen im Einsatz, seit einem Unfall im Jahr 2004 ist sie abgestellt und wartet auf die Aufarbeitung. Die Betriebsfähigkeit wird wieder angestrebt.",
+        ["br01_10_1066_desc"] = "Seit 1975 gehört 01 1066 den Ulmer Eisenbahnfreunden und war seitdem auch immer im Musemseinsatz mit immer wieder kurz- oder langfristigeren Abstell- und Reparaturpausen.",
 
 	},
 }
