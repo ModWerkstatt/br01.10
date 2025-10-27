@@ -513,7 +513,7 @@ return {
 		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
                     },
 					-----------------Tender---------------------
-                    
+
                     {
 			            children = {
 			                {
@@ -604,15 +604,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1925,
-			yearTo = 1946,
+			yearFrom = 1968,
+			yearTo = 1975,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("br01_10_drg_name"),
-			description = _("br01_10_drg_desc"),
+			name = _("br01_10_9_name"),
+			description = _("br01_10_desc"),
 		},
 		emission = {
 			idleEmission = -1,
