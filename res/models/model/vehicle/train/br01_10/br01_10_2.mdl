@@ -63,7 +63,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/beweglich_drg.mtl", },
-						        mesh = "vehicle/train/br01_10/rad_main_kurbel_lod0.msh",
+						        mesh = "vehicle/train/br01_10/rad_main3_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
 					        },
