@@ -51,7 +51,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/beweglich_db.mtl", },
-						        mesh = "vehicle/train/br01_10/rad_crank_lod0.msh",
+						        mesh = "vehicle/train/br01_10/rad_main_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.1533, 0, 0.99959, 1, },
 					        },
@@ -63,7 +63,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/beweglich_db.mtl", },
-						        mesh = "vehicle/train/br01_10/rad_main_lod0.msh",
+						        mesh = "vehicle/train/br01_10/rad_main3_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
 					        },
@@ -638,7 +638,7 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { "vehicle/train/br01_10/rad_main_lod0.msh", "vehicle/train/br01_10/rad_main2_lod0.msh", "vehicle/train/br01_10/rad_gross_lod0.msh", "vehicle/train/br01_10/rad_nachlaeufer_lod0.msh", "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh", },
+					axles = { "vehicle/train/br01_10/rad_main_lod0.msh", "vehicle/train/br01_10/rad_main2_lod0.msh", "vehicle/train/br01_10/rad_main3_lod0.msh", "vehicle/train/br01_10/rad_gross_lod0.msh", "vehicle/train/br01_10/rad_nachlaeufer_lod0.msh", "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh", },
 					frontForwardParts = {  },
               		backForwardParts = {  },
               		frontBackwardParts = {  },
