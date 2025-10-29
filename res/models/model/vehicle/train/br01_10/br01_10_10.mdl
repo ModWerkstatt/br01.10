@@ -30,12 +30,6 @@ return {
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/br01_10/rumpf_blau.mtl", },
-						        mesh = "vehicle/train/br01_10/licht_blau_lod0.msh",
-						        name = "rumpf_S1",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
 						        materials = { "vehicle/train/br01_10/beweglich_drg.mtl", },
 						        mesh = "vehicle/train/br01_10/innen_10_lod0.msh",
 						        name = "rumpf_S1",
@@ -69,21 +63,9 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/beweglich_drg.mtl", },
-						        mesh = "vehicle/train/br01_10/rad_main_lod0.msh",
+						        mesh = "vehicle/train/br01_10/rad_main3_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/licht_weiss_st_lod0.msh",
-						        name = "rumpf_S1",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/licht_rot_st_lod0.msh",
-						        name = "rumpf_S1",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/beweglich_drg.mtl", },
@@ -135,6 +117,35 @@ return {
 								name = "bogie",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0502, 0, 0, 1, },
 							},
+                            ---------------------------------------Antrieb mitte ---------------------------------------------
+							{
+						       animations = {
+							       wheels = {
+							       params = {
+							        id = "vehicle/train/br01_10/antrieb_mitte.ani",
+									},
+							       type = "FILE_REF",
+							       },
+						       },
+						        materials = { "vehicle/train/br01_10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/br01_10/antrieb_mitte_lod0.msh",
+						        name = "antrieb_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.755, -0.0518, 0.97912, 1, },
+					        },
+							{
+						       animations = {
+							       wheels = {
+							       params = {
+							        id = "vehicle/train/br01_10/schieber_mitte.ani",
+									},
+							       type = "FILE_REF",
+							       },
+						       },
+						        materials = { "vehicle/train/br01_10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/br01_10/schieber_mitte_lod0.msh",
+						        name = "antrieb_rechts",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.841, 0.14794, 1.4965, 1, },
+					        },
 							---------------------------------------Antrieb rechts---------------------------------------------
 							{
 						       animations = {
@@ -589,7 +600,7 @@ return {
 					color = { 0.6, 0.7, 0.7, },
 					frequency = 60,
 					lifeTime = 4,
-					position = { 8.04, 0, 4.3, },
+					position = { 7.48, 0, 4.3, },
 					size01 = { 0.25, 4, },
 					velocity = { 0, 0, 3, },
 				},
