@@ -819,7 +819,7 @@ return {
 			            children = {
 			                {
 				                materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_23t38/rumpf_lod1.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/rumpf2_lod1.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
