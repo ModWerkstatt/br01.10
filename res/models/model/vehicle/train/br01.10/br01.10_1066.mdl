@@ -530,8 +530,8 @@ return {
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4, 0, 0.48715, 1, },
 							},
 					        {
-						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/lokschilder/schild_1071_tender_lod0.msh",
+						        materials = { "vehicle/train/br01_10/rumpf_66.mtl", },
+						        mesh = "vehicle/train/br01_10/lokschilder/schild_66_tender_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
