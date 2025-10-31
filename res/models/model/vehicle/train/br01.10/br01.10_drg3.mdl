@@ -841,43 +841,48 @@ return {
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
+							{
+						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
+						        name = "rumpf_s1_tender",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.11, 0, 0.48715, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
+						        name = "rumpf_s1_tender",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48, 0, 0.48715, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
+						        name = "rumpf_s1_tender",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88, 0, 0.48715, 1, },
+							},
 						    ----------------Tenderbogie---------------
 						    {
 							    children = {
 								    {
 									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
+									    mesh = "vehicle/train/br01_10/tender_23t38/bogie_lod1.msh",
 									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.48715, 1, },
+									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								    },
 								    {
 									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.48715, 1, },
+									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
+								    },
+								    {
+									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
+									    name = "rumpf_s1_tender",
+									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
 								    },
 							    },
 							    name = "bogie",
-							    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9, 0, 0, 1, },
-						    },
-						    ----------------Tenderbogie2---------------
-						    {
-							    children = {
-								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
-									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.48715, 1, },
-								    },
-								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
-									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.48715, 1, },
-								    },
-							    },
-							    name = "bogie",
-							    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.9, 0, 0, 1, },
+							    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2, 0, 0, 1, },
 						    },
                        },
 		               name = "tender_stromlinie",
@@ -966,6 +971,24 @@ return {
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
+							{
+						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
+						        name = "rumpf_s1_tender",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.11, 0, 0.48715, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
+						        name = "rumpf_s1_tender",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48, 0, 0.48715, 1, },
+							},
+							{
+						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
+						        name = "rumpf_s1_tender",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88, 0, 0.48715, 1, },
+							},
 						    ----------------Tenderbogie---------------
 						    {
 							    children = {
@@ -973,36 +996,17 @@ return {
 									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.48715, 1, },
+									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 								    },
 								    {
 									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.48715, 1, },
+									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
 								    },
 							    },
 							    name = "bogie",
-							    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9, 0, 0, 1, },
-						    },
-						    ----------------Tenderbogie2---------------
-						    {
-							    children = {
-								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
-									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.48715, 1, },
-								    },
-								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
-									    name = "rumpf_s1_tender",
-									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.48715, 1, },
-								    },
-							    },
-							    name = "bogie",
-							    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.9, 0, 0, 1, },
+							    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2, 0, 0, 1, },
 						    },
                        },
 		               name = "tender_stromlinie",
