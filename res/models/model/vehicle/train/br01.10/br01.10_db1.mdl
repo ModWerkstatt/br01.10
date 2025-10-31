@@ -31,7 +31,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/glas.mtl", },
-						        mesh = "vehicle/train/br01_10/glas_1.10_lod0.msh",
+						        mesh = "vehicle/train/br01_10/glas_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -608,7 +608,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/glas.mtl", },
-						        mesh = "vehicle/train/br01_10/glas_1.10_lod0.msh",
+						        mesh = "vehicle/train/br01_10/glas_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },

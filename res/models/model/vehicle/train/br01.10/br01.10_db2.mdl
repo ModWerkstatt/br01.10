@@ -69,13 +69,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_lichthell_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_weiss_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_rot_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_rot_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -613,13 +613,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_lichthell_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_weiss_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_rot_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_rot_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },

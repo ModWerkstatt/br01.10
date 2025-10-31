@@ -55,13 +55,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_lichthell_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_weiss_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_rot_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_rot_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -489,25 +489,25 @@ return {
 			            children = {
 			                {
 				                materials = { "vehicle/train/br01_10/tender_oel.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/rumpf_tender_23t36_oel_lod0.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/oel/rumpf_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
 				                materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/tender_lichtrot_oel_lod0.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/licht_rot_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
 				                materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/tender_lichthell_oel_lod0.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/oel/licht_weiss_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
 				                materials = { "vehicle/train/br01_10/glas.mtl", },
-				                mesh = "vehicle/train/br01_10/tender_oel/glas_tender_oel_lod0.msh",
+				                mesh = "vehicle/train/br01_10/tender_23t38/oel/glas_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
@@ -531,7 +531,7 @@ return {
 							},
 					        {
 						        materials = { "vehicle/train/br01_10/schilder.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/schild_1071t_lod0.msh",
+						        mesh = "vehicle/train/br01_10/lokschilder/schild_1071_tender_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -609,13 +609,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_lichthell_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_weiss_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/rumpf_rot_neu_lod0.msh",
+						        mesh = "vehicle/train/br01_10/licht_rot_db_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -815,19 +815,19 @@ return {
 			            children = {
 			                {
 				                materials = { "vehicle/train/br01_10/tender_oel.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/rumpf_tender_23t36_oel_lod1.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/oel/rumpf_lod1.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
 				                materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/tender_lichtrot_oel_lod0.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/licht_rot_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 			                {
 				                materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/tender_lichthell_oel_lod0.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/oel/licht_weiss_lod0.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
@@ -963,7 +963,7 @@ return {
 			            children = {
 			                {
 				                materials = { "vehicle/train/br01_10/tender_oel.mtl", },
-						        mesh = "vehicle/train/br01_10/tender_oel/rumpf_tender_23t36_oel_lod2.msh",
+						        mesh = "vehicle/train/br01_10/tender_23t38/oel/rumpf_lod2.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
