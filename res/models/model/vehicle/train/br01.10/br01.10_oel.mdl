@@ -73,7 +73,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/br01_10/beweglich_db.mtl", },
-						        mesh = "vehicle/train/br01_10/witte_10-2_lod0.msh",
+						        mesh = "vehicle/train/br01_10/windleichtbleche_witte2_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
