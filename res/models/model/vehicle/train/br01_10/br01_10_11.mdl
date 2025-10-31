@@ -540,7 +540,7 @@ return {
 							    children = {
 								    {
 									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_23t34/bogie_tender_23t36_lod0.msh",
+									    mesh = "vehicle/train/br01_10/tender_23t38/bogie_lod0.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								    },
@@ -854,7 +854,7 @@ return {
 							    children = {
 								    {
 									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
-									    mesh = "vehicle/train/br01_10/tender_23t34/bogie_tender_23t36_lod1.msh",
+									    mesh = "vehicle/train/br01_10/tender_23t38/bogie_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								    },
