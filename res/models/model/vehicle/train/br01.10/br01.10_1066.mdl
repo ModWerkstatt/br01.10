@@ -1056,15 +1056,15 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1956,
-			yearTo = 1968,
+			yearFrom = 1975,
+--			yearTo = 1968,
 		},
 		cost = {
 			price = -1,
 		},
 		description = {
-			name = _("br01_10_6_name"),
-			description = _("br01_10_db2_desc"),
+			name = _("br01_10_11_name"),
+			description = _("br01_10_1066_desc"),
 		},
 		emission = {
 			idleEmission = -1,
