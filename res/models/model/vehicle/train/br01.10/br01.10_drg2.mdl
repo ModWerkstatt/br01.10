@@ -1152,7 +1152,7 @@ return {
 			loadSpeed = 1,
 			multipleUnitOnly = false,
 			reversible = true,
-            groupFileName = "vehicle/train/br01_10/menu_br01.10.mdl",
+            groupFileName = "vehicle/train/br01.10/menu_br01.10.mdl",
 		},
 	},
 	version = 1,
