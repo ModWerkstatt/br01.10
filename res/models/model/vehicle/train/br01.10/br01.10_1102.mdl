@@ -1074,7 +1074,7 @@ return {
 					color = { 0.3, 0.3, 0.3, },
 					frequency = 60,
 					lifeTime = 2,
-					position = { 8.04, 0, 4.3, },
+					position = { 7.48, 0, 4.5, },
 					size01 = { 0.15, 3, },
 					velocity = { 0, 0, 3, },
 				},
