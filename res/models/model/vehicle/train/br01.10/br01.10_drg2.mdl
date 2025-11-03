@@ -68,13 +68,13 @@ return {
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						        materials = { "vehicle/train/br01_10/licht.mtl", },
 						        mesh = "vehicle/train/br01_10/licht_weiss_st_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						        materials = { "vehicle/train/br01_10/licht.mtl", },
 						        mesh = "vehicle/train/br01_10/licht_rot_st_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -783,7 +783,7 @@ return {
                     {
 			            children = {
 			                {
-				                materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+				                materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rumpf_stromlinie_lod1.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -801,19 +801,19 @@ return {
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 							{
-						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.11, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88, 0, 0.48715, 1, },
@@ -822,19 +822,19 @@ return {
 						    {
 							    children = {
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_23t38/bogie_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
@@ -925,7 +925,7 @@ return {
                     {
 			            children = {
 			                {
-				                materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+				                materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rumpf_stromlinie_lod2.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -934,13 +934,13 @@ return {
 						    {
 							    children = {
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.48715, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.48715, 1, },
@@ -953,13 +953,13 @@ return {
 						    {
 							    children = {
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0.48715, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1, 0, 0.48715, 1, },
@@ -1000,7 +1000,7 @@ return {
                     {
 			            children = {
 			                {
-				                materials = { "vehicle/train/br01_10/tender_drg.mtl", },
+				                materials = { "vehicle/train/br01_10/tender_drg2.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rumpf_stromlinie_lod3.msh",
 				                name = "rumpf_s1_tender",
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

@@ -78,7 +78,7 @@ return {
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 							{
-						        materials = { "vehicle/train/br01_10/rumpf_oel.mtl", },
+						        materials = { "vehicle/train/br01_10/rumpf_66.mtl", },
 						        mesh = "vehicle/train/br01_10/rumpf_tube_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -512,19 +512,19 @@ return {
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.64, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.03, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4, 0, 0.48715, 1, },
@@ -539,19 +539,19 @@ return {
 						    {
 							    children = {
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_23t38/bogie_lod0.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod0.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
@@ -578,7 +578,7 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br01_10/rumpf_oel.mtl", },
+						        materials = { "vehicle/train/br01_10/rumpf_66.mtl", },
 						        mesh = "vehicle/train/br01_10/rumpf_neubaukessel_lod1.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -832,19 +832,19 @@ return {
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.64, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.03, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4, 0, 0.48715, 1, },
@@ -853,19 +853,19 @@ return {
 						    {
 							    children = {
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_23t38/bogie_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod1.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
@@ -892,7 +892,7 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br01_10/rumpf_oel.mtl", },
+						        materials = { "vehicle/train/br01_10/rumpf_66.mtl", },
 						        mesh = "vehicle/train/br01_10/rumpf_01.10_1_lod2.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -968,19 +968,19 @@ return {
 				                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			                },
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.64, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.03, 0, 0.48715, 1, },
 							},
 							{
-						        materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+						        materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 						        mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 						        name = "rumpf_s1_tender",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4, 0, 0.48715, 1, },
@@ -989,13 +989,13 @@ return {
 						    {
 							    children = {
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 								    },
 								    {
-									    materials = { "vehicle/train/br01_10/tender_dbalt.mtl", },
+									    materials = { "vehicle/train/br01_10/tender_oel.mtl", },
 									    mesh = "vehicle/train/br01_10/tender_stromlinie/rad_lod2.msh",
 									    name = "rumpf_s1_tender",
 									    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
@@ -1022,7 +1022,7 @@ return {
                     {
 				        children = {
 					        {
-						        materials = { "vehicle/train/br01_10/rumpf_oel.mtl", },
+						        materials = { "vehicle/train/br01_10/rumpf_66.mtl", },
 						        mesh = "vehicle/train/br01_10/rumpf_st_lod3.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
