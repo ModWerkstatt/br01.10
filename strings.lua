@@ -3,7 +3,7 @@ return {
 	en = {
 
 		["mod_name"] = "Class 01.10",
-		["mod_desc"] = "The German Reichsbahn required powerful steam locomotives with a maximum speed of 150 km/h. Based on experience with the BR 01, a three-cylinder engine was chosen. These were equipped with streamlined fairings, which were removed after the war. The boilers proved to be unsustainable, so new high-performance boilers were installed from 1953 onwards and, from 1956, some locomotives were fitted with oil-fired main boilers. The series designation 011 for coal and 012 for oil was assigned as EDP numbers in 1068, and in the same year the first locomotives began to be taken out of service, until the last BR 01.10 was decommissioned in 1975.",
+		["mod_desc"] = "The German Reichsbahn required powerful steam locomotives with a maximum speed of 150 km/h. Based on experience with the BR 01, a three-cylinder engine was chosen. These were equipped with streamlined fairings, which were removed after the war. The boilers proved to be unsustainable, so new high-performance boilers were installed from 1953 onwards and, from 1956, some locomotives were fitted with oil-fired main boilers. The series designation 011 for coal and 012 for oil was assigned as EDP numbers in 1968, and in the same year the first locomotives began to be taken out of service, until the last BR 01.10 was decommissioned in 1975.",
 
 		["br01_10_menu"] = "Class 01.10",
 
@@ -28,7 +28,7 @@ return {
 	de = {
 
 		["mod_name"] = "BR 01.10",
-		["mod_desc"] = "Die Deutsche Reichsbahn benötigte leistungsstarke Dampflokomotiven mit einer Höchstgeschwindigkeit von 150 km/h, nach Erfahrung mit der BR 01 entschied man sich für ein Dreizylindertriebwerk. Diese waren mit einer Stromlinienverkleidung ausgestattet, die nach dem Krieg abgebaut wurde. Die Kessel erwiesen sich als nicht haltbar, so dass man ab 1953 neue Hochleistungskessel verbaute und ab 1956 teilweise Ölhauptfeuerung. Als EDV-Nummern wurde die Baureihenbezeichnung 011 für Kohle sowie 012 für Öl im Jahr 1068 vergeben, im selben Jahr begann auch schon die Ausmusterung der ersten Lokomotiven, bis 1975 die letzte BR 01.10 abgestellt wurde.",
+		["mod_desc"] = "Die Deutsche Reichsbahn benötigte leistungsstarke Dampflokomotiven mit einer Höchstgeschwindigkeit von 150 km/h, nach Erfahrung mit der BR 01 entschied man sich für ein Dreizylindertriebwerk. Diese waren mit einer Stromlinienverkleidung ausgestattet, die nach dem Krieg abgebaut wurde. Die Kessel erwiesen sich als nicht haltbar, so dass man ab 1953 neue Hochleistungskessel verbaute und ab 1956 teilweise Ölhauptfeuerung. Als EDV-Nummern wurde die Baureihenbezeichnung 011 für Kohle sowie 012 für Öl im Jahr 1968 vergeben, im selben Jahr begann auch schon die Ausmusterung der ersten Lokomotiven, bis 1975 die letzte BR 01.10 abgestellt wurde.",
 
 		["br01_10_menu"] = "BR 01.10",
 
