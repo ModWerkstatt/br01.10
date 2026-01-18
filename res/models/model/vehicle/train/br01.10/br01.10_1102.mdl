@@ -1129,7 +1129,7 @@ return {
 					type = "STEAM",
 				},
 			},
-			soundSet = { name = "br01", },
+			soundSet = { name = "br01_10", },
 			topSpeed = 41.66666667,
 			weight = 196.5,
 		},
