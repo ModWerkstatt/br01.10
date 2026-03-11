@@ -1,0 +1,32 @@
+{
+    "dependencies": [
+        {
+            "loadBefore": true,
+            "mod": {
+                "modId": "mw_br01",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Class 01",
+                "url": "https://modwerkstatt.com/downloads/tpf3/br-01"
+            },
+            "optional": false
+        }
+    ],
+    "incompatibilities": null,
+    "modId": "mw_br01_10",
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}
