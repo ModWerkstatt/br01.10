@@ -18,8 +18,8 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_dbalt.mtl", },
-									mesh = "msh/br01_10/rumpf_01_10_1_lod0.msh",
+									materials = { "mat/rumpf_66.mtl", },
+									mesh = "msh/br01_10/rumpf_neubaukessel_oel_lod0.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -31,23 +31,9 @@ return {
 								},
 								{ 
 									materials = { "mat/beweglich_db.mtl", },
-									mesh = "msh/br01_10/innen_lod0.msh",
+									mesh = "msh/br01_10/innen_10_oel_lod0.msh",
 									name = "interior",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									animations = { 
-										forever = { 
-											params = { 
-												id = "mw_br01::/vehicle/train/br01/ani/feuertuer.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
-									materials = { "mat/beweglich_db.mtl", },
-									mesh = "msh/br01_10/feuertuer_lod0.msh",
-									name = "feuertuer",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8599998950958251953125, 0, 2.4270000457763671875, 1, },
 								},
 								{ 
 									materials = { "mat/beweglich_db.mtl", },
@@ -119,8 +105,26 @@ return {
 								},
 								{ 
 									materials = { "mat/beweglich_db.mtl", },
-									mesh = "msh/br01_10/windleichtbleche_witte1_lod0.msh",
+									mesh = "msh/br01_10/windleichtbleche_witte2_lod0.msh",
 									name = "windleitbleche",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_66.mtl", },
+									mesh = "msh/br01_10/rumpf_tube_lod0.msh",
+									name = "rumpf_tube",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_66.mtl", },
+									mesh = "msh/lokschilder/schild_1066_lod0.msh",
+									name = "schild_lok",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_66.mtl", },
+									mesh = "msh/lokschilder/schild_1066v_lod0.msh",
+									name = "schild_lok_vorne",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -193,15 +197,7 @@ return {
 									name = "schieber_mitte",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.841000080108642578125, 0.14793999493122100830078125, 1.4965000152587890625, 1, },
 								},
-								{ 
-									animations = { 
-										wheels = { 
-											params = { 
-												id = "ani/wheels/kipper.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
+								{
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/kipper_lod0.msh",
 									name = "kipper",
@@ -501,26 +497,6 @@ return {
 									name = "oel3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.16774000227451324462890625, 1.1500999927520751953125, 1.6563999652862548828125, 1, },
 								},
-								{ 
-									animations = { 
-										forever = { 
-											params = { 
-												id = "mw_br01::/vehicle/train/br01/ani/feuer_hell.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
-									materials = { "mat/licht.mtl", },
-									mesh = "msh/br01_10/feuer_hell_lod0.msh",
-									name = "feuer_hell",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mat/licht.mtl", },
-									mesh = "msh/br01_10/feuer_rot_lod0.msh",
-									name = "feuer_rot",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
 							},
 							name = "br01",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -528,31 +504,9 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
-									mesh = "msh/tender_23t38/kohle/rumpf2_lod0.msh",
+									materials = { "mat/tender_oel.mtl", },
+									mesh = "msh/tender_23t38/oel/rumpf_lod0.msh",
 									name = "tender_body",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									animations = { 
-										front_backward_parts_off = { 
-											interpolation = "NEAREST",
-											params = { 
-												id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
-											},
-											type = "FILE_REF",
-										},
-										front_backward_parts_on = { 
-											interpolation = "NEAREST",
-											params = { 
-												id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
-									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-									mesh = "msh/tender_23t38/kohle/licht_weiss_lod0.msh",
-									name = "headlights_bwd",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -578,45 +532,73 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
+									animations = { 
+										front_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										front_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/tender_23t38/oel/licht_weiss_lod0.msh",
+									name = "headlights_bwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
 									materials = { "mat/glas.mtl", },
-									mesh = "msh/tender_23t38/kohle/glas_lod0.msh",
+									mesh = "msh/tender_23t38/shared/glas_lod0.msh",
 									name = "tender_glas",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod0.msh",
 									name = "w7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.63999998569488525390625, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod0.msh",
 									name = "w8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0299999713897705078125, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod0.msh",
 									name = "w9",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
+									materials = { "mat/rumpf_66.mtl", },
+									mesh = "msh/lokschilder/schild_66_tender_lod0.msh",
+									name = "schild_tender",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
 									children = {
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_23t38/shared/bogie_lod0.msh",
 											name = "tender_bogie",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 										},
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod0.msh",
 											name = "w10",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.88999998569488525390625, 0, 0.487150013446807861328125, 1, },
 										},
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod0.msh",
 											name = "w11",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.875999987125396728515625, 0, 0.487150013446807861328125, 1, },
@@ -642,9 +624,15 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_dbalt.mtl", },
-									mesh = "msh/br01_10/rumpf_01_10_1_lod1.msh",
+									materials = { "mat/rumpf_66.mtl", },
+									mesh = "msh/br01_10/rumpf_neubaukessel_lod1.msh",
 									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/glas.mtl", },
+									mesh = "msh/br01_10/rumpf_glas_neu_lod0.msh",
+									name = "rumpf_glas",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -898,31 +886,9 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
-									mesh = "msh/tender_23t38/kohle/rumpf2_lod1.msh",
+									materials = { "mat/tender_oel.mtl", },
+									mesh = "msh/tender_23t38/oel/rumpf_lod1.msh",
 									name = "tender_body",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									animations = { 
-										front_backward_parts_off = { 
-											interpolation = "NEAREST",
-											params = { 
-												id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
-											},
-											type = "FILE_REF",
-										},
-										front_backward_parts_on = { 
-											interpolation = "NEAREST",
-											params = { 
-												id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
-									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-									mesh = "msh/tender_23t38/kohle/licht_weiss_lod0.msh",
-									name = "headlights_bwd",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
@@ -948,19 +914,41 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									animations = { 
+										front_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										front_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/tender_23t38/oel/licht_weiss_lod0.msh",
+									name = "headlights_bwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod1.msh",
 									name = "w7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.63999998569488525390625, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod1.msh",
 									name = "w8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0299999713897705078125, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod1.msh",
 									name = "w9",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, 0, 0.487150013446807861328125, 1, },
@@ -968,19 +956,19 @@ return {
 								{ 
 									children = {
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_23t38/shared/bogie_lod1.msh",
 											name = "tender_bogie",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 										},
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod1.msh",
 											name = "w10",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.88999998569488525390625, 0, 0.487150013446807861328125, 1, },
 										},
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod1.msh",
 											name = "w11",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.875999987125396728515625, 0, 0.487150013446807861328125, 1, },
@@ -1006,7 +994,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_dbalt.mtl", },
+									materials = { "mat/rumpf_66.mtl", },
 									mesh = "msh/br01_10/rumpf_01_10_1_lod2.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -1072,25 +1060,25 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
-									mesh = "msh/tender_23t38/kohle/rumpf_lod2.msh",
+									materials = { "mat/tender_oel.mtl", },
+									mesh = "msh/tender_23t38/oel/rumpf_lod2.msh",
 									name = "tender_body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod2.msh",
 									name = "w7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.63999998569488525390625, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod2.msh",
 									name = "w8",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.0299999713897705078125, 0, 0.487150013446807861328125, 1, },
 								},
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod2.msh",
 									name = "w9",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, 0, 0.487150013446807861328125, 1, },
@@ -1098,13 +1086,13 @@ return {
 								{ 
 									children = {
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod2.msh",
 											name = "w10",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.88999998569488525390625, 0, 0.487150013446807861328125, 1, },
 										},
 										{ 
-											materials = { "mat/tender_dbalt.mtl", },
+											materials = { "mat/tender_oel.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod2.msh",
 											name = "w11",
 											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.875999987125396728515625, 0, 0.487150013446807861328125, 1, },
@@ -1130,7 +1118,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/rumpf_dbalt.mtl", },
+									materials = { "mat/rumpf_66.mtl", },
 									mesh = "msh/br01_10/rumpf_st_lod3.msh",
 									name = "body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -1142,7 +1130,7 @@ return {
 						{ 
 							children = {
 								{ 
-									materials = { "mat/tender_dbalt.mtl", },
+									materials = { "mat/tender_oel.mtl", },
 									mesh = "msh/tender_stromlinie/rumpf_stromlinie_lod3.msh",
 									name = "tender_body",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -1161,15 +1149,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1950,
-				yearTo = 1956,
+				yearFrom = 1975,
+				yearTo = 0,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
-				description = _("br01_10_db_desc"),
-				name = _("br01_10_5_name"),
+				description = _("br01_10_1066_desc"),
+				name = _("br01_10_11_name"),
 			},
 			emissions = { 
 				noise = { 
@@ -1187,14 +1175,14 @@ return {
 				brakeDeceleration = 2.5,
 				engines = {
 					{ 
-						power = 1559,
+						power = 1817,
 						tractiveEffort = 156,
 						type = "STEAM",
 					},
 				},
 				friction = 0.0199999995529651641845703125,
 				topSpeed = 41.666667938232421875,
-				weightEmpty = 196700,
+				weightEmpty = 196500,
 				weightMaxPayload = 0,
 			},
 			extent = { 
@@ -1418,7 +1406,7 @@ return {
 								{ 
 									easing = "Linear",
 									time = 1,
-									value = { 0.60000002384185791015625, 0.699999988079071044921875, 0.699999988079071044921875, },
+									value = { 0.300000011920928955078125, 0.300000011920928955078125, 0.300000011920928955078125, },
 								},
 							},
 						},
@@ -1427,12 +1415,12 @@ return {
 						},
 						lifeTime = { 
 							randomMinMax = { 
-								max = 4,
-								min = 2,
+								max = 2,
+								min = 1,
 							},
 						},
 						particleId = "",
-						position = { 8.03999996185302734375, 0, 4.400000095367431640625, },
+						position = { 8.03999996185302734375, 0, 4.30000019073486328125, },
 						shape = { 
 							point = { 
 								maxDir = 0.800000011920928955078125,
@@ -1444,14 +1432,14 @@ return {
 									easing = "Linear",
 									time = 0,
 									value = { 
-										value = 0.25,
+										value = 0.1500000059604644775390625,
 									},
 								},
 								{ 
 									easing = "EaseOutSqrt",
 									time = 4,
 									value = { 
-										value = 4,
+										value = 3,
 									},
 								},
 							},
@@ -1625,7 +1613,7 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 0,
+									capacity = 4,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },

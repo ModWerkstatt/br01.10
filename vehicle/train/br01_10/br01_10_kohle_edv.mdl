@@ -125,13 +125,13 @@ return {
 								},
 								{ 
 									materials = { "mat/schilder.mtl", },
-									mesh = "msh/lokschilder/schild_1070_lod0.msh",
+									mesh = "msh/lokschilder/schild_097_lod0.msh",
 									name = "schild_lok",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
 									materials = { "mat/schilder.mtl", },
-									mesh = "msh/lokschilder/schild_1070v_lod0.msh",
+									mesh = "msh/lokschilder/schild_097v_lod0.msh",
 									name = "schild_lok_v",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -205,15 +205,7 @@ return {
 									name = "schieber_mitte",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.841000080108642578125, 0.14793999493122100830078125, 1.4965000152587890625, 1, },
 								},
-								{ 
-									animations = { 
-										wheels = { 
-											params = { 
-												id = "ani/wheels/kipper.ani",
-											},
-											type = "FILE_REF",
-										},
-									},
+								{
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/kipper_lod0.msh",
 									name = "kipper",
@@ -615,7 +607,7 @@ return {
 								},
 								{ 
 									materials = { "mat/schilder.mtl", },
-									mesh = "msh/lokschilder/schild_1070_tender_lod0.msh",
+									mesh = "msh/lokschilder/schild_097_tender_lod0.msh",
 									name = "schild_tender",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
@@ -1185,15 +1177,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1953,
-				yearTo = 1968,
+				yearFrom = 1968,
+				yearTo = 1975,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("br01_10_db2_desc"),
-				name = _("br01_10_8_name"),
+				name = _("br01_10_9_name"),
 			},
 			emissions = { 
 				noise = { 
