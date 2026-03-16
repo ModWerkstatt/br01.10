@@ -12,7 +12,7 @@ soundsetutil.addTrackParam01
 		{
 		{ .0, 1.0 },
 		{ 1.0, 1.0 } },
-		{vehicle, "speed01"})
+		{"vehicle", "speed01"})
 
 soundsetutil.addTrackParam01
 (data, "br01_10/ventil.wav", 25.0,
@@ -23,7 +23,7 @@ soundsetutil.addTrackParam01
 		{
 		{ .0, 1.0 },
 		{ 1.0, 1.0 } },
-		{vehicle, "speed01"})
+		{"vehicle", "speed01"})
 
 soundsetutil.addTrackParam01
 (data, "br01_10/10_drive.wav", 25.0,
@@ -35,7 +35,7 @@ soundsetutil.addTrackParam01
 		{
 		{ .0, 0.6 },--pitch speedtone
 		{ 1.0, 1.1 } },
-		{vehicle, "speed01"})
+		{"vehicle", "speed01"})
 
 
 soundsetutil.addEvent(data, "horn", { "br01_10/pfiff_01.wav" }, 50.0)
