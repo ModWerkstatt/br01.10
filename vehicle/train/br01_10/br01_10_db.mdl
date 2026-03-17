@@ -50,18 +50,42 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8599998950958251953125, 0, 2.4270000457763671875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "mw_br01::/vehicle/train/br01/ani/wheels/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/rad_main_lod0.msh",
 									name = "w1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.153299808502197265625, 0, 0.999589979648590087890625, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "mw_br01::/vehicle/train/br01/ani/wheels/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/rad_main2_lod0.msh",
 									name = "w2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.87930011749267578125, 0, 0.999589979648590087890625, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "mw_br01::/vehicle/train/br01/ani/wheels/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/rad_main3_lod0.msh",
 									name = "w3",
@@ -195,7 +219,7 @@ return {
 								},
 								{
 									materials = { "mat/beweglich_db.mtl", },
-									mesh = "mw_br01::/vehicle/train/br01/msh/br01//kipper_lod0.msh",
+									mesh = "mw_br01::/vehicle/train/br01/msh/br01/kipper_lod0.msh",
 									name = "kipper",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.43949985504150390625, 0, 2.02600002288818359375, 1, },
 								},
@@ -640,12 +664,28 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "mw_br01::/vehicle/train/br01/ani/wheels/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/rad_main_lod1.msh",
 									name = "w1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.153299808502197265625, 0, 0.999589979648590087890625, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "mw_br01::/vehicle/train/br01/ani/wheels/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_db.mtl", },
 									mesh = "msh/br01_10/rad_main2_lod1.msh",
 									name = "w2",
