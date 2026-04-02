@@ -1676,26 +1676,6 @@ return {
 			},
 			transportVehicle = { 
 				carrier = "RAIL",
-				compartments = {
-					{ 
-						loadConfigs = {
-							{ 
-								cargoEntry = { 
-									capacity = 0,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { },
-									},
-									loadIndicator = "",
-									seats = { },
-								},
-								toHide = { },
-							},
-						},
-					},
-				},
 				engineTags = { "TRAIN", "ELECTRIC_TRAIN", },
 				groupFileName = "menu_br01_10.mdl",
 				reversible = true,
