@@ -1386,6 +1386,8 @@ return {
 				runningCosts = -1,
 			},
 			particleSystem = { 
+				maxDistance = 4000,
+				animateInvisible = true,
 				emitters = {
 					{ 
 						child = "br01",
