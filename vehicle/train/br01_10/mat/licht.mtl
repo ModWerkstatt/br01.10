@@ -1,26 +1,28 @@
 function data()
-return { 
+return {
 		__version = "",
 		order = 0,
-		params = { 
-			emissive_scale = { 
+		params = {
+			emissive_scale = {
 				fragmentProperties = {
-					{ 
+					{
 						emissiveScale = { 6, 6, 6, },
+                        fromTime = 0,
+                        toTime = 24,
 					},
 				},
 			},
-			light_receiver = { 
+			light_receiver = {
 				fragmentProperties = {
-					{ 
+					{
 						isLegacyMaterial = false,
 						lightMask = 2,
 					},
 				},
 			},
-			map_emissive = { 
-				fragmentSamplers = { 
-					emissiveTex = { 
+			map_emissive = {
+				fragmentSamplers = {
+					emissiveTex = {
 						fileName = "::/vehicle/train/emissive/tex/train_all_lights.dds",
 						type = "TWOD",
 					},
