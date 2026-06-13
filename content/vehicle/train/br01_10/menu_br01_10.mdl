@@ -49,12 +49,12 @@ return {
 				score = 30,
 			},
 		},
-		landVehicle = {
-			brakeDeceleration = 2.5,
+		landVehicle = { 
+			brakeDeceleration = 0.0,
 			engines = { },
-			friction = 0.0199999995529651641845703125,
-			topSpeed = 27.777777,
-			weight = 111.6999969482421875,
+			friction = 0,
+			topSpeed = 0,
+			weightEmpty = 0,
 		},
 		maintenance = {
 			lifespan = 21915,
