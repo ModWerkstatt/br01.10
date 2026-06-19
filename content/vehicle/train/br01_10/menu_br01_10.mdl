@@ -72,7 +72,6 @@ return {
 			engineTransportModes = { },			
 			transportModes = { },
             filterTags = { },
-			multipleUnitOnly = true,
 		},
 	},
 	version = 2,
