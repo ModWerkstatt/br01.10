@@ -1,14 +1,14 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 10.91699981689453125, 1.5499999523162841796875, 4.30000019073486328125, },
-			bbMin = { -13.0869998931884765625, -1.5499999523162841796875, 0, },
+			bbMax = { 10.917, 1.55, 4.3, },
+			bbMin = { -13.087, -1.55, 0, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 12.00199985504150390625, 1.5499999523162841796875, 2.150000095367431640625, },
+				halfExtents = { 12.002, 1.55, 2.15, },
 			},
-			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.08500003814697265625, 0, 2.150000095367431640625, 1, },
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.085, 0, 2.15, 1, },
 			type = "BOX",
 		},
 		lods = {
@@ -47,7 +47,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/feuertuer_lod0.msh",
 									name = "feuertuer",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8599998950958251953125, 0, 2.4270000457763671875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.86, 0, 2.427, 1, },
 								},
 								{ 
 									animations = { 
@@ -60,8 +60,8 @@ return {
 									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main_lod0.msh",
-									name = "w1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.153299808502197265625, 0, 0.999589979648590087890625, 1, },
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.1533, 0, 0.99959, 1, },
 								},
 								{ 
 									animations = { 
@@ -74,8 +74,8 @@ return {
 									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main2_lod0.msh",
-									name = "w2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.87930011749267578125, 0, 0.999589979648590087890625, 1, },
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8793, 0, 0.99959, 1, },
 								},
 								{ 
 									animations = { 
@@ -88,8 +88,8 @@ return {
 									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main3_lod0.msh",
-									name = "w3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894002437591552734375, 0, 0.999589979648590087890625, 1, },
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
 								},
 								{ 
 									animations = { 
@@ -139,7 +139,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/bremse_knorr_lod0.msh",
 									name = "bremsen",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0500000007450580596923828125, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.05, 0, 0, 1, },
 								},
 								{ 
 									children = {
@@ -147,23 +147,23 @@ return {
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/bogie_vorne_lod0.msh",
 											name = "bogie1",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3697690069675445556640625, 1, },
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.369769, 1, },
 										},
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_gross_lod0.msh",
-											name = "w4",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.10000002384185791015625, 0, 0.4659999907016754150390625, 1, },
+											name = "a4",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, 0, 0.466, 1, },
 										},
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_gross_lod0.msh",
-											name = "w5",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.10000002384185791015625, 0, 0.4659999907016754150390625, 1, },
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1, 0, 0.466, 1, },
 										},
 									},
 									name = "bogie1_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.08812046051025390625, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.08812, 0, 0, 1, },
 								},
 								{ 
 									children = {
@@ -171,23 +171,23 @@ return {
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/bogie_hinten_lod0.msh",
 											name = "bogie2",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.32959997653961181640625, 1, },
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.3296, 1, },
 										},
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_nachlaeufer_lod0.msh",
-											name = "w6",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.13000011444091796875, 0, 0.586489975452423095703125, 1, },
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.13, 0, 0.58649, 1, },
 										},
 									},
 									name = "bogie2_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.050199985504150390625, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0502, 0, 0, 1, },
 								},
-								{
+								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/kipper_lod0.msh",
 									name = "kipper",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.43949985504150390625, 0, 2.02600002288818359375, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.4395, 0, 2.026, 1, },
 								},
 								{ 
 									animations = { 
@@ -201,7 +201,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/antrieb_rechts_lod0.msh",
 									name = "antrieb_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.880300045013427734375, -0.84332001209259033203125, 0.63668000698089599609375, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8803, -0.84332, 0.63668, 1, },
 								},
 								{ 
 									animations = { 
@@ -215,7 +215,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/koppler_rechts_lod0.msh",
 									name = "koppler_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8798000812530517578125, -1.20019996166229248046875, 0.63666999340057373046875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8798, -1.2002, 0.63667, 1, },
 								},
 								{ 
 									animations = { 
@@ -229,7 +229,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schieber_rechts_lod0.msh",
 									name = "schieber_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.54839992523193359375, -1.34230005741119384765625, 0.939819991588592529296875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5484, -1.3423, 0.93982, 1, },
 								},
 								{ 
 									animations = { 
@@ -243,7 +243,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schwinge_rechts_lod0.msh",
 									name = "schwinge_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.024400234222412109375, -1.2674000263214111328125, 1.676300048828125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0244, -1.2674, 1.6763, 1, },
 								},
 								{ 
 									animations = { 
@@ -257,7 +257,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schwingkoppel_rechts_lod0.msh",
 									name = "schwingkoppel_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0072000026702880859375, -1.26989996433258056640625, 0.978640019893646240234375, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0072, -1.2699, 0.97864, 1, },
 								},
 								{ 
 									animations = { 
@@ -271,7 +271,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventil_rechts_lod0.msh",
 									name = "ventil_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.999599933624267578125, -1.31840002536773681640625, 1.581799983978271484375, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9996, -1.3184, 1.5818, 1, },
 								},
 								{ 
 									animations = { 
@@ -285,7 +285,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilhebel_rechts_lod0.msh",
 									name = "ventilhebel_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.771500110626220703125, -1.33120000362396240234375, 1.69249999523162841796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.7715, -1.3312, 1.6925, 1, },
 								},
 								{ 
 									animations = { 
@@ -299,7 +299,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilkoppel_rechts_lod0.msh",
 									name = "ventilkoppel_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.489299774169921875, -1.28149998188018798828125, 0.799009978771209716796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.4893, -1.2815, 0.79901, 1, },
 								},
 								{ 
 									animations = { 
@@ -313,7 +313,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilkoppel_rechts_lod0.msh",
 									name = "ventilschwinge_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.99989986419677734375, -1.2553999423980712890625, 1.58239996433258056640625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9999, -1.2554, 1.5824, 1, },
 								},
 								{ 
 									animations = { 
@@ -327,7 +327,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/antrieb_links_lod0.msh",
 									name = "antrieb_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8796999454498291015625, 0.844049990177154541015625, 1.36609995365142822265625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8797, 0.84405, 1.3661, 1, },
 								},
 								{ 
 									animations = { 
@@ -341,7 +341,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/koppler_links_lod0.msh",
 									name = "koppler_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.880300045013427734375, 0.84332001209259033203125, 1.36609995365142822265625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8803, 0.84332, 1.3661, 1, },
 								},
 								{ 
 									animations = { 
@@ -355,7 +355,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schieber_links_lod0.msh",
 									name = "schieber_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.54839992523193359375, 1.34230005741119384765625, 0.939819991588592529296875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5484, 1.3423, 0.93982, 1, },
 								},
 								{ 
 									animations = { 
@@ -369,7 +369,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schwinge_links_lod0.msh",
 									name = "schwinge_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.024400234222412109375, 1.2674000263214111328125, 1.676300048828125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0244, 1.2674, 1.6763, 1, },
 								},
 								{ 
 									animations = { 
@@ -383,7 +383,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schwingkoppel_links_lod0.msh",
 									name = "schwingkoppel_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.750999927520751953125, 1.26989996433258056640625, 1.01900005340576171875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.751, 1.2699, 1.019, 1, },
 								},
 								{ 
 									animations = { 
@@ -397,7 +397,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventil_links_lod0.msh",
 									name = "ventil_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.999599933624267578125, 1.31840002536773681640625, 1.581799983978271484375, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9996, 1.3184, 1.5818, 1, },
 								},
 								{ 
 									animations = { 
@@ -411,7 +411,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilhebel_links_lod0.msh",
 									name = "ventilhebel_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.771500110626220703125, 1.33120000362396240234375, 1.69249999523162841796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.7715, 1.3312, 1.6925, 1, },
 								},
 								{ 
 									animations = { 
@@ -425,7 +425,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilkoppel_links_lod0.msh",
 									name = "ventilkoppel_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.489299774169921875, 1.28149998188018798828125, 0.799009978771209716796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.4893, 1.2815, 0.79901, 1, },
 								},
 								{ 
 									animations = { 
@@ -439,7 +439,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilschwinge_links_lod0.msh",
 									name = "ventilschwinge_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.99989986419677734375, 1.2553999423980712890625, 1.58239996433258056640625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9999, 1.2554, 1.5824, 1, },
 								},
 								{ 
 									animations = { 
@@ -453,7 +453,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/oel_1_lod0.msh",
 									name = "oel1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.792500019073486328125, 1.08980000019073486328125, 1.06589996814727783203125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.7925, 1.0898, 1.0659, 1, },
 								},
 								{ 
 									animations = { 
@@ -467,7 +467,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/oel_2_lod0.msh",
 									name = "oel2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1720300018787384033203125, 1.21630001068115234375, 2.0457999706268310546875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.17203, 1.2163, 2.0458, 1, },
 								},
 								{ 
 									animations = { 
@@ -481,7 +481,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/oel_3_lod0.msh",
 									name = "oel3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.16774000227451324462890625, 1.1500999927520751953125, 1.6563999652862548828125, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.16774, 1.1501, 1.6564, 1, },
 								},
 								{ 
 									animations = { 
@@ -568,20 +568,20 @@ return {
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod0.msh",
-									name = "w7",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.10999999940395355224609375, 0, 0.487150013446807861328125, 1, },
+									name = "a7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.11, 0, 0.48715, 1, },
 								},
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod0.msh",
-									name = "w8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.480000019073486328125, 0, 0.487150013446807861328125, 1, },
+									name = "a8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48, 0, 0.48715, 1, },
 								},
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod0.msh",
-									name = "w9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88000011444091796875, 0, 0.487150013446807861328125, 1, },
+									name = "a9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88, 0, 0.48715, 1, },
 								},
 								{ 
 									children = {
@@ -594,22 +594,22 @@ return {
 										{ 
 											materials = { "mat/tender_drg2.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod0.msh",
-											name = "w10",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.88999998569488525390625, 0, 0.487150013446807861328125, 1, },
+											name = "a10",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 										},
 										{ 
 											materials = { "mat/tender_drg2.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod0.msh",
-											name = "w11",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.875999987125396728515625, 0, 0.487150013446807861328125, 1, },
+											name = "a11",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
 										},
 									},
 									name = "tender_bogie_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2000000476837158203125, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2, 0, 0, 1, },
 								},
 							},
 							name = "tender_stromlinie",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3500003814697265625, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -638,20 +638,20 @@ return {
 								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main_lod1.msh",
-									name = "w1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.153299808502197265625, 0, 0.999589979648590087890625, 1, },
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.1533, 0, 0.99959, 1, },
 								},
 								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main2_lod1.msh",
-									name = "w2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.87930011749267578125, 0, 0.999589979648590087890625, 1, },
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8793, 0, 0.99959, 1, },
 								},
 								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main_lod1.msh",
-									name = "w3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894002437591552734375, 0, 0.999589979648590087890625, 1, },
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
 								},
 								{ 
 									animations = { 
@@ -703,35 +703,35 @@ return {
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/bogie_vorne_lod1.msh",
 											name = "bogie1",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3697690069675445556640625, 1, },
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.369769, 1, },
 										},
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_gross_lod1.msh",
-											name = "w4",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.10000002384185791015625, 0, 0.4659999907016754150390625, 1, },
+											name = "a4",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, 0, 0.466, 1, },
 										},
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_gross_lod1.msh",
-											name = "w5",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.10000002384185791015625, 0, 0.4659999907016754150390625, 1, },
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1, 0, 0.466, 1, },
 										},
 									},
 									name = "bogie1_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.08812046051025390625, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.08812, 0, 0, 1, },
 								},
 								{ 
 									children = {
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_nachlaeufer_lod1.msh",
-											name = "w6",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.13000011444091796875, 0, 0.586489975452423095703125, 1, },
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.13, 0, 0.58649, 1, },
 										},
 									},
 									name = "bogie2_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.050199985504150390625, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0502, 0, 0, 1, },
 								},
 								{ 
 									animations = { 
@@ -745,7 +745,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/antrieb_rechts_lod1.msh",
 									name = "antrieb_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.880300045013427734375, -0.84332001209259033203125, 0.63668000698089599609375, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8803, -0.84332, 0.63668, 1, },
 								},
 								{ 
 									animations = { 
@@ -759,7 +759,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/koppler_rechts_lod1.msh",
 									name = "koppler_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8798000812530517578125, -1.20019996166229248046875, 0.63666999340057373046875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8798, -1.2002, 0.63667, 1, },
 								},
 								{ 
 									animations = { 
@@ -773,7 +773,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schieber_rechts_lod1.msh",
 									name = "schieber_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.54839992523193359375, -1.34230005741119384765625, 0.939819991588592529296875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5484, -1.3423, 0.93982, 1, },
 								},
 								{ 
 									animations = { 
@@ -787,7 +787,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilhebel_rechts_lod1.msh",
 									name = "ventilhebel_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.771500110626220703125, -1.33120000362396240234375, 1.69249999523162841796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.7715, -1.3312, 1.6925, 1, },
 								},
 								{ 
 									animations = { 
@@ -801,7 +801,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilschwinge_rechts_lod1.msh",
 									name = "ventilschwinge_rechts",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.99989986419677734375, -1.2553999423980712890625, 1.58239996433258056640625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9999, -1.2554, 1.5824, 1, },
 								},
 								{ 
 									animations = { 
@@ -815,7 +815,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/antrieb_links_lod1.msh",
 									name = "antrieb_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8796999454498291015625, 0.844049990177154541015625, 1.36609995365142822265625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8797, 0.84405, 1.3661, 1, },
 								},
 								{ 
 									animations = { 
@@ -829,7 +829,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/koppler_links_lod1.msh",
 									name = "koppler_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.880300045013427734375, 0.84332001209259033203125, 1.36609995365142822265625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8803, 0.84332, 1.3661, 1, },
 								},
 								{ 
 									animations = { 
@@ -843,7 +843,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/schieber_links_lod1.msh",
 									name = "schieber_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.54839992523193359375, 1.34230005741119384765625, 0.939819991588592529296875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5484, 1.3423, 0.93982, 1, },
 								},
 								{ 
 									animations = { 
@@ -857,7 +857,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilhebel_links_lod1.msh",
 									name = "ventilhebel_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.771500110626220703125, 1.33120000362396240234375, 1.69249999523162841796875, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.7715, 1.3312, 1.6925, 1, },
 								},
 								{ 
 									animations = { 
@@ -871,7 +871,7 @@ return {
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "mw_br01::/vehicle/train/br01/msh/br01/ventilschwinge_links_lod1.msh",
 									name = "ventilschwinge_links",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.99989986419677734375, 1.2553999423980712890625, 1.58239996433258056640625, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.9999, 1.2554, 1.5824, 1, },
 								},
 							},
 							name = "br01",
@@ -932,20 +932,20 @@ return {
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod1.msh",
-									name = "w7",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.10999999940395355224609375, 0, 0.487150013446807861328125, 1, },
+									name = "a7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.11, 0, 0.48715, 1, },
 								},
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod1.msh",
-									name = "w8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.480000019073486328125, 0, 0.487150013446807861328125, 1, },
+									name = "a8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48, 0, 0.48715, 1, },
 								},
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod1.msh",
-									name = "w9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88000011444091796875, 0, 0.487150013446807861328125, 1, },
+									name = "a9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88, 0, 0.48715, 1, },
 								},
 								{ 
 									children = {
@@ -958,22 +958,22 @@ return {
 										{ 
 											materials = { "mat/tender_drg2.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod1.msh",
-											name = "w10",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.88999998569488525390625, 0, 0.487150013446807861328125, 1, },
+											name = "a10",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 										},
 										{ 
 											materials = { "mat/tender_drg2.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod1.msh",
-											name = "w11",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.875999987125396728515625, 0, 0.487150013446807861328125, 1, },
+											name = "a11",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
 										},
 									},
 									name = "tender_bogie_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2000000476837158203125, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2, 0, 0, 1, },
 								},
 							},
 							name = "tender_stromlinie",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3500003814697265625, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -996,50 +996,50 @@ return {
 								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main_lod2.msh",
-									name = "w1",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.153299808502197265625, 0, 0.999589979648590087890625, 1, },
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.1533, 0, 0.99959, 1, },
 								},
 								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main_lod2.msh",
-									name = "w2",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.87930011749267578125, 0, 0.999589979648590087890625, 1, },
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.8793, 0, 0.99959, 1, },
 								},
 								{ 
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/br01_10/rad_main_lod2.msh",
-									name = "w3",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894002437591552734375, 0, 0.999589979648590087890625, 1, },
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.58894, 0, 0.99959, 1, },
 								},
 								{ 
 									children = {
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_gross_lod2.msh",
-											name = "w4",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.10000002384185791015625, 0, 0.4659999907016754150390625, 1, },
+											name = "a4",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, 0, 0.466, 1, },
 										},
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_gross_lod2.msh",
-											name = "w5",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.10000002384185791015625, 0, 0.4659999907016754150390625, 1, },
+											name = "a5",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1, 0, 0.466, 1, },
 										},
 									},
 									name = "bogie1_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.08812046051025390625, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.08812, 0, 0, 1, },
 								},
 								{ 
 									children = {
 										{ 
 											materials = { "mat/beweglich_drg.mtl", },
 											mesh = "msh/br01_10/rad_nachlaeufer_lod2.msh",
-											name = "w6",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.13000011444091796875, 0, 0.586489975452423095703125, 1, },
+											name = "a6",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.13, 0, 0.58649, 1, },
 										},
 									},
 									name = "bogie2_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.050199985504150390625, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.0502, 0, 0, 1, },
 								},
 							},
 							name = "br01",
@@ -1056,42 +1056,42 @@ return {
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod2.msh",
-									name = "w7",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.10999999940395355224609375, 0, 0.487150013446807861328125, 1, },
+									name = "a7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.11, 0, 0.48715, 1, },
 								},
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod2.msh",
-									name = "w8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.480000019073486328125, 0, 0.487150013446807861328125, 1, },
+									name = "a8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48, 0, 0.48715, 1, },
 								},
 								{ 
 									materials = { "mat/tender_drg2.mtl", },
 									mesh = "msh/tender_stromlinie/rad_lod2.msh",
-									name = "w9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88000011444091796875, 0, 0.487150013446807861328125, 1, },
+									name = "a9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.88, 0, 0.48715, 1, },
 								},
 								{ 
 									children = {
 										{ 
 											materials = { "mat/tender_drg2.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod2.msh",
-											name = "w10",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.88999998569488525390625, 0, 0.487150013446807861328125, 1, },
+											name = "a10",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89, 0, 0.48715, 1, },
 										},
 										{ 
 											materials = { "mat/tender_drg2.mtl", },
 											mesh = "msh/tender_stromlinie/rad_lod2.msh",
-											name = "w11",
-											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.875999987125396728515625, 0, 0.487150013446807861328125, 1, },
+											name = "a11",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.876, 0, 0.48715, 1, },
 										},
 									},
 									name = "tender_bogie_grp",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2000000476837158203125, 0, 0, 1, },
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.2, 0, 0, 1, },
 								},
 							},
 							name = "tender_stromlinie",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3500003814697265625, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -1125,7 +1125,7 @@ return {
 								},
 							},
 							name = "tender_stromlinie",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3500003814697265625, 0, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.35, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
@@ -1159,8 +1159,13 @@ return {
 					speed = -1,
 				},
 			},
+			extent = { 
+				bbMax = { 10.917, 1.55, 4.3, },
+				bbMin = { -13.127, -1.55, 0, },
+			},
 			landVehicle = { 
 				brakeDeceleration = 0.7,
+				curveSpeedScale = 1,
 				engines = {
 					{ 
 						power = 1559,
@@ -1168,22 +1173,17 @@ return {
 						type = "STEAM",
 					},
 				},
-				friction = 0.0199999995529651641845703125,
-				topSpeed = 41.666667938232421875,
+				friction = 0.02,
+				topSpeed = 41.6667,
 				weightEmpty = 196700,
 				weightMaxPayload = 0,
 			},
-			extent = { 
-				bbMax = { 10.91699981689453125, 1.5499999523162841796875, 4.30000019073486328125, },
-				bbMin = { -13.12699985504150390625, -1.5499999523162841796875, 0, },
-			},
-			lightSourceList = {
+			lightSourceList = { 
 				lights = {
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1191,17 +1191,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
-						transf = { 0.984807431697845458984375, 0, -0.17364813387393951416015625, 0, 0, 1, 0, 0, 0.17364813387393951416015625, 0, 0.984807431697845458984375, 0, 10.31999969482421875, 0.89999997615814208984375, 1.5, 1, },
+						transf = { 0.984807, 0, -0.173648, 0, 0, 1, 0, 0, 0.173648, 0, 0.984807, 0, 10.32, 0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1209,17 +1207,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
-						transf = { 0.984807431697845458984375, 0, -0.17364813387393951416015625, 0, 0, 1, 0, 0, 0.17364813387393951416015625, 0, 0.984807431697845458984375, 0, 10.31999969482421875, -0.89999997615814208984375, 1.5, 1, },
+						transf = { 0.984807, 0, -0.173648, 0, 0, 1, 0, 0, 0.173648, 0, 0.984807, 0, 10.32, -0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1227,17 +1223,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1.5,
-						toTime = -1,
-						transf = { 0.984807431697845458984375, 0, -0.17364813387393951416015625, 0, 0, 1, 0, 0, 0.17364813387393951416015625, 0, 0.984807431697845458984375, 0, 9.7399997711181640625, 0, 3.650000095367431640625, 1, },
+						transf = { 0.984807, 0, -0.173648, 0, 0, 1, 0, 0, 0.173648, 0, 0.984807, 0, 9.74, 0, 3.65, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1245,17 +1239,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
-						transf = { 0.984807431697845458984375, 0, -0.17364813387393951416015625, 0, 0, 1, 0, 0, 0.17364813387393951416015625, 0, 0.984807431697845458984375, 0, 10.31999969482421875, 0.89999997615814208984375, 1.5, 1, },
+						transf = { 0.984807, 0, -0.173648, 0, 0, 1, 0, 0, 0.173648, 0, 0.984807, 0, 10.32, 0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1263,17 +1255,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
-						transf = { 0.984807431697845458984375, 0, -0.17364813387393951416015625, 0, 0, 1, 0, 0, 0.17364813387393951416015625, 0, 0.984807431697845458984375, 0, 10.31999969482421875, -0.89999997615814208984375, 1.5, 1, },
+						transf = { 0.984807, 0, -0.173648, 0, 0, 1, 0, 0, 0.173648, 0, 0.984807, 0, 10.32, -0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1281,17 +1271,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
-						transf = { -0.98480737209320068359375, -0.00000008609459456465629045851528644561767578125, -0.17364813387393951416015625, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, -0.17364813387393951416015625, -0.000000015180802392933401279151439666748046875, 0.98480737209320068359375, 0, -4.230000019073486328125, 0.89999997615814208984375, 1.5, 1, },
+						transf = { -0.984807, 0, -0.173648, 0, 0, -1, 0, 0, -0.173648, 0, 0.984807, 0, -4.23, 0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1299,17 +1287,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 2,
-						toTime = -1,
-						transf = { -0.98480737209320068359375, -0.00000008609459456465629045851528644561767578125, -0.17364813387393951416015625, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, -0.17364813387393951416015625, -0.000000015180802392933401279151439666748046875, 0.98480737209320068359375, 0, -4.230000019073486328125, -0.89999997615814208984375, 1.5, 1, },
+						transf = { -0.984807, 0, -0.173648, 0, 0, -1, 0, 0, -0.173648, 0, 0.984807, 0, -4.23, -0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1317,17 +1303,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1.5,
-						toTime = -1,
-						transf = { -0.98480737209320068359375, -0.00000008609459456465629045851528644561767578125, -0.17364813387393951416015625, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, -0.17364813387393951416015625, -0.000000015180802392933401279151439666748046875, 0.98480737209320068359375, 0, -3.849999904632568359375, 0, 3.269999980926513671875, 1, },
+						transf = { -0.984807, 0, -0.173648, 0, 0, -1, 0, 0, -0.173648, 0, 0.984807, 0, -3.85, 0, 3.27, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1335,17 +1319,15 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
-						transf = { -0.98480737209320068359375, -0.00000008609459456465629045851528644561767578125, -0.17364813387393951416015625, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, -0.17364813387393951416015625, -0.000000015180802392933401279151439666748046875, 0.98480737209320068359375, 0, -4.230000019073486328125, 0.89999997615814208984375, 1.5, 1, },
+						transf = { -0.984807, 0, -0.173648, 0, 0, -1, 0, 0, -0.173648, 0, 0.984807, 0, -4.23, 0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMin = 5,
-						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						color = { 0.337255, 0.00793541, 0.00793541, },
 						fadeOutStart = 1400,
-						fromTime = -1,
 						invertMask = true,
 						lightId = "",
 						mask = 0,
@@ -1353,18 +1335,16 @@ return {
 						mode = "LIGHT",
 						radius = 10,
 						strength = 1,
-						toTime = -1,
-						transf = { -0.98480737209320068359375, -0.00000008609459456465629045851528644561767578125, -0.17364813387393951416015625, 0, 0.0000000874227765734758577309548854827880859375, -1, 0, 0, -0.17364813387393951416015625, -0.000000015180802392933401279151439666748046875, 0.98480737209320068359375, 0, -4.230000019073486328125, -0.89999997615814208984375, 1.5, 1, },
+						transf = { -0.984807, 0, -0.173648, 0, 0, -1, 0, 0, -0.173648, 0, 0.984807, 0, -4.23, -0.9, 1.5, 1, },
 						type = "SPOT",
 						visibleFrom = -1,
 						visibleTo = 1600,
 					},
-					{
+					{ 
 						angleMax = 89,
 						angleMin = 9,
-						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						color = { 1, 0.926131, 0.580392, },
 						fadeOutStart = 600,
-						fromTime = -1,
 						invertMask = false,
 						lightId = "",
 						mask = 32,
@@ -1372,31 +1352,34 @@ return {
 						mode = "LIGHT",
 						radius = 2.5,
 						strength = 3,
-						toTime = -1,
-						transf = { 1, 0, 0, 0, 0, -0.00000004371138828673792886547744274139404296875, -1, 0, 0, 1, -0.00000004371138828673792886547744274139404296875, 0, -3.5, 0, 4, 1, },
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -3.5, 0, 4, 1, },
 						type = "CYLINDRICAL",
 						visibleFrom = -1,
 						visibleTo = 1600,
-						width = 0.89999997615814208984375,
+						width = 0.9,
 					},
 				},
 			},
-			maintenance = {
+			maintenance = { 
 				lifespan = 36525,
 				runningCosts = -1,
 			},
 			particleSystem = { 
-				maxDistance = 4000,
 				animateInvisible = true,
 				emitters = {
 					{ 
-						child = "br01",
+						child = "body",
 						colorOverLifeTime = { 
 							curve = {
 								{ 
-									easing = "Linear",
-									time = 1,
-									value = { 0.60000002384185791015625, 0.699999988079071044921875, 0.699999988079071044921875, },
+									easing = "EaseInSine",
+									time = 0.5,
+									value = { 0.82549, 0.82549, 0.82549, },
+								},
+								{ 
+									easing = "EaseInSine",
+									time = 0.8,
+									value = { 0.594118, 0.594118, 0.594118, },
 								},
 							},
 						},
@@ -1410,19 +1393,22 @@ return {
 							},
 						},
 						particleId = "",
-						position = { 7.480000019073486328125, 0, 4.5, },
+						position = { 7.5, 0, 4.6, },
 						shape = { 
 							point = { 
-								maxDir = 0.800000011920928955078125,
+								maxDir = 0.8,
 							},
 						},
 						sizeOverLifeTime = { 
 							curve = {
 								{ 
-									easing = "Linear",
+									easing = "EaseInQuart",
 									time = 0,
 									value = { 
-										value = 0.25,
+										componentWiseMinMax = { 
+											max = 0,
+											min = 0,
+										},
 									},
 								},
 								{ 
@@ -1441,115 +1427,12 @@ return {
 							value = 0,
 						},
 					},
-					{ 
-						child = "br01",
-						colorOverLifeTime = { 
-							curve = {
-								{ 
-									easing = "Linear",
-									time = 1,
-									value = { 0.699999988079071044921875, 0.699999988079071044921875, 0.699999988079071044921875, },
-								},
-							},
-						},
-						frequency = { 
-							value = 80,
-						},
-						lifeTime = { 
-							randomMinMax = { 
-								max = 0.5,
-								min = 0.25,
-							},
-						},
-						particleId = "",
-						position = { 7.400000095367431640625, -1.2000000476837158203125, 0.93970000743865966796875, },
-						shape = { 
-							point = { 
-								maxDir = 0.800000011920928955078125,
-							},
-						},
-						sizeOverLifeTime = { 
-							curve = {
-								{ 
-									easing = "Linear",
-									time = 0,
-									value = { 
-										value = 0.100000001490116119384765625,
-									},
-								},
-								{ 
-									easing = "EaseOutSqrt",
-									time = 4,
-									value = { 
-										value = 0.20000000298023223876953125,
-									},
-								},
-							},
-						},
-						velocity = { 
-							value = { -0.5, 0, -0.20000000298023223876953125, },
-						},
-						velocityByDirection = { 
-							value = 0,
-						},
-					},
-					{ 
-						child = "br01",
-						colorOverLifeTime = { 
-							curve = {
-								{ 
-									easing = "Linear",
-									time = 1,
-									value = { 0.699999988079071044921875, 0.699999988079071044921875, 0.699999988079071044921875, },
-								},
-							},
-						},
-						frequency = { 
-							value = 80,
-						},
-						lifeTime = { 
-							randomMinMax = { 
-								max = 0.5,
-								min = 0.25,
-							},
-						},
-						particleId = "",
-						position = { 7.400000095367431640625, 1.2000000476837158203125, 0.93970000743865966796875, },
-						shape = { 
-							point = { 
-								maxDir = 0.800000011920928955078125,
-							},
-						},
-						sizeOverLifeTime = { 
-							curve = {
-								{ 
-									easing = "Linear",
-									time = 0,
-									value = { 
-										value = 0.100000001490116119384765625,
-									},
-								},
-								{ 
-									easing = "EaseOutSqrt",
-									time = 4,
-									value = { 
-										value = 0.20000000298023223876953125,
-									},
-								},
-							},
-						},
-						velocity = { 
-							value = { -0.5, 0, -0.20000000298023223876953125, },
-						},
-						velocityByDirection = { 
-							value = 0,
-						},
-					},
 				},
+				maxDistance = 4000,
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10", },
+					axles = { "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", "a9", "a10", },
 					fakeBogies = { },
 				},
 			},
@@ -1561,27 +1444,27 @@ return {
 						animation = "idle",
 						crew = true,
 						group = "br01",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, -0.75, 1.65999996662139892578125, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4, -0.75, 1.66, 1, },
 					},
 					{ 
 						animation = "idle",
 						crew = true,
 						group = "br01",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, 0.75, 1.65999996662139892578125, 1, },
-					},
-					{ 
-						animation = "idle",
-						crew = true,
-						forward = false,
-						group = "br01",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, -0.75, 1.65999996662139892578125, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.4, 0.75, 1.66, 1, },
 					},
 					{ 
 						animation = "idle",
 						crew = true,
 						forward = false,
 						group = "br01",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.400000095367431640625, 0.75, 1.65999996662139892578125, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.4, -0.75, 1.66, 1, },
+					},
+					{ 
+						animation = "idle",
+						crew = true,
+						forward = false,
+						group = "br01",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.4, 0.75, 1.66, 1, },
 					},
 				},
 			},
@@ -1598,11 +1481,32 @@ return {
 			},
 			transportVehicle = { 
 				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 0,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
 				engineTransportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				entrances = { },
+				filterTags = { "default", },
 				groupFileName = "menu_br01_10.mdl",
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-                filterTags = { "default", },
 			},
 		},
 		version = 2,
